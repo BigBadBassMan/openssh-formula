@@ -18,6 +18,12 @@ driver:
   <% end %>
 
 platforms:
+  - name: rocky-9-3007-py3
+    driver:
+      box: genaumann/rocky9-salt
+  - name: debian-11-3006-py3
+    driver:
+      box: solutionreach/debian11
   - name: freebsd-130-master-py3
     driver:
       box: myii/freebsd-13.0-master-py3
