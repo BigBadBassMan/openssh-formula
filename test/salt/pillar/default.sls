@@ -16,6 +16,9 @@
 # ```
 # yamllint enable rule:line-length
 
+foreman_interfaces:
+  - ip: 1.2.3.4
+
 sshd_config:
   ChallengeResponseAuthentication: 'no'
   X11Forwarding: 'yes'
